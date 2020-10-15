@@ -1,16 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Who I am and what I do
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Jan Willem Luiten. I have been a software developer all my life and most of the time I really enjoy designing software and writing code. Only a couple of years into my career I started working as a freelancer. Long, long before this became popular in the Netherlands.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
 
 ### my history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+
