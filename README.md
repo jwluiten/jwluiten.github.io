@@ -29,7 +29,7 @@ This command generates static content into the `build` directory and can be serv
 Using SSH:
 
 ```
-$ USE_SSH=true yarn deploy
+$ GIT_USER=jwluiten;USE_SSH=true yarn deploy
 ```
 
 Not using SSH:
