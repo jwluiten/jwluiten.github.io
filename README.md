@@ -1,6 +1,6 @@
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website is built by J.W. Luiten using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
