@@ -1,3 +1,0 @@
-# Documentation
-
-Index for introduction.

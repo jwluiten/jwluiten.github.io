@@ -86,8 +86,16 @@ const config = {
             items: [
               {
                 label: 'Welcome',
-                to: '/docs/index',
+                to: '/docs',
               },
+              {
+                label: 'SunSDR2 DX',
+                to: '/docs/sunsdr2dx'
+              },
+              {
+                label: 'expertSDR3',
+                to: '/docs/expertsdr3'
+              }
             ],
           },
           {

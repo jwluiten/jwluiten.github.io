@@ -4,32 +4,31 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Robust',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        SunSDR2 DX transceivers are built with quality and robustness in mind and will meet
+        the standards of even the most profound DX-er.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Easy to operate',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        ExpertSDR3 is feature rich, yet easy to operate. It will meet the demands of both the
+        incidental user and the most demanding operator.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Multi platform',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        ExpertSDR3 software, the front end to the transceiver runs on Windows, MacOS and Linux.
       </>
     ),
   },
