@@ -13,7 +13,7 @@ A couple of days later my SunSDR2 DX arrived. Unfortunately, I had to wait to un
 In hindsight, I see a couple of reasons it took me fairly long to get it all up and running. Some aspects, like getting the mic input on my mac to work,
 were only solved after days. Besides my own impatience, there are other apects that caused it all to take longer than necessary.
 
-:::note
+:::info
 This website is powered by [Docusaurus](https://docusaurus.io/docs). I warmly welcome anyone who wants to contribute. You are encouraged to fork my [repo](https://github.com/jwluiten/jwluiten.github.io) and [contribute](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) to this website.
 :::
 
