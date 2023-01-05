@@ -14,7 +14,7 @@ This website is powered by [Docusaurus](https://docusaurus.io/docs). I warmly we
 :::
 
 In hindsight, I see a couple of reasons it took me fairly long to get it all up and running. Some aspects, like getting the mic input on my mac to work,
-were only solved after days. Besides my own impatience, there are other apects that caused it all to take longer than necessary.
+were only solved after days. Besides my own impatience, there are other aspects that caused it all to take longer than necessary.
 
 A network capable Software Defined transceiver operated from a laptop, is a very different beast than a traditional Yaesu or Kenwoord transceiver. Traditional transceivers only need to be connected to a power supply and an antenna to be ready to operate.
 
