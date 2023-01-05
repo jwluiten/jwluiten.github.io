@@ -14,7 +14,7 @@ In hindsight, I see a couple of reasons it took me fairly long to get it all up 
 were only solved after days. Besides my own impatience, there are other apects that caused it all to take longer than necessary.
 
 :::note
-This website is powered by [Docusaurus](https://docusaurus.io/docs). I warmly welcome anyone who wants to contribute. You are encouraged to fork my [repo](https.github.com/jwluiten/jwluiten.github.io) and [contribute](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) to this website.
+This website is powered by [Docusaurus](https://docusaurus.io/docs). I warmly welcome anyone who wants to contribute. You are encouraged to fork my [repo](https://github.com/jwluiten/jwluiten.github.io) and [contribute](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) to this website.
 :::
 
 A network capable Software Defined transceiver operated from a laptop, is a very different beast than a traditional Yaesu or Kenwoord transceiver. Traditional transceivers only need to be connected to the power supply and the antenna to be ready to operate.
