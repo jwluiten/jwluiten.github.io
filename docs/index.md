@@ -13,11 +13,33 @@ A couple of days later my SunSDR2 DX arrived. Unfortunately, I had to wait to un
 This website is powered by [Docusaurus](https://docusaurus.io/docs). I warmly welcome anyone who wants to contribute. You are encouraged to fork my [repo](https://github.com/jwluiten/jwluiten.github.io) and [contribute](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) to this website.
 :::
 
+## Why is this difficult?
+
 In hindsight, I see a couple of reasons it took me fairly long to get it all up and running. Some aspects, like getting the mic input on my mac to work,
 were only solved after days. Besides my own impatience, there are other aspects that caused it all to take longer than necessary.
 
-A network capable Software Defined transceiver operated from a laptop, is a very different beast than a traditional Yaesu or Kenwoord transceiver. Traditional transceivers only need to be connected to a power supply and an antenna to be ready to operate.
+A network capable Software Defined Radio operated from a laptop, is a very different beast than a traditional Yaesu or Kenwoord transceiver. Traditional transceivers only need to be connected to a power supply and an antenna to be ready to operate. SDR based transceivers like the SunSDR introduce a number of complications (challenges?) that need to be mastered.
 
-SDR based transceivers like the SunSDR introduce a number of complications (challenges?) that need to be mastered. In order to work properly they need to be integrated in your home network. They are operated through a piece of software (Frontend) that must be installed on your laptop. In case of the SunSDR the latest version (ExpertSDR3), while easy to operate, has no manual yet. Also, information on the SunSDR is scattered over several places. While solutions for problems you might encounter are readily available, they are sometimes hard to find.
+### Networking
 
-The challenges I encountered in getting my SunSDR on the air, are the reason for this website. My goal is to have a central location where I and others can write documentation and blog about our experiences with SunSDR, the expertSDR frontend and Ham Radio in general.
+In order to work properly the SunSDR transceiver needs to be integrated in your home network. While most HAM operators are fairly proficient, this can present its challenges. The documentation on this site will guide you through this.
+
+### Operating System
+
+The SunSDR transceivers are &mdash;like most Software Defined Radios&mdash; operated through a piece of software (Frontend) that must be installed on your laptop. This not only brings all the capabilities but also all the complexities of the Operating System into play.
+
+### No central source of information
+
+Also, information on the SunSDR is scattered over several places. While solutions for problems you might encounter are readily available, they are sometimes hard to find. To make matter worse, the latest version (ExpertSDR3 1.0.2 beta), while easy to operate, has no manual at the time of this writing.
+
+## Why is this easy?
+
+Once you've got your SunSDR and ExpertSDR up and running, you're bound to find out that CAT interfaces (Computer Aided Tuning) and CI-V adapters are no match for the TCI interface introduced by Expert Electronics. Physical cables, the CI-V Interface and the CAT protocol all became obsolete. Expert Electronics is setting a benchmark here and many suppliers already adapted their software to the TCI protocol. [SDC (Software Defined Connectors)](https://www.lw-sdc.com), [MacLoggerDX](https://www.dogparksoftware.com/MacLoggerDX.html) and many others run flawlessly with ExpertSDR3.
+
+## Let's help each other
+
+The challenges I encountered in getting my SunSDR on the air, are the reason for this website. My goal is to help other Hams by creating a central location where I and others can write documentation and blog about our experiences with SunSDR, the expertSDR frontend and Ham Radio in general.
+
+## Call to participate
+
+I welcome everyone who wants to participate in growing our community.

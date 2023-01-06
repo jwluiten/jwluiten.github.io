@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SunSDR2 DX/ExpertSDR3',
+  title: 'SunSDR2 DX/ExpertSDR3 Docs',
   tagline: 'Documentation on SunSDR2 DX and ExpertSDR',
   url: 'https://jwluiten.github.io',
   baseUrl: '/',
