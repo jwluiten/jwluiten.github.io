@@ -5,7 +5,7 @@ sidebar_position: 0
 # Welcome
 
 My name is Jan Willem Luiten, callsign PA3GNW. In December 2022, on Black Friday, I purchased a SunSDR2 DX at <a href="https://www.anico-hamshop.eu" target="_blank">Anico</a>.
-A couple of days later my SunSDR2 DX arrived. Unfortunately, I had to wait to unpack because I was busy at work. During the Christmas holidays, I finally found the time to unbox it, integrate it into my home network, and get it on the air. To be honest, that took me more time than I expected.
+A couple of days later my SunSDR2 DX arrived. Unfortunately, I had to wait to unpack because I was busy at work. During the Christmas holidays, I finally found the time to unbox it, integrate it into my home network, and get it on the air. To be honest, that took me longer than I expected.
 
 ![SunSDR2DX by Expert Electronics](img/SunSDR2DX.jpg)
 
@@ -18,7 +18,7 @@ This website is powered by [Docusaurus](https://docusaurus.io/docs). I warmly we
 In hindsight, I see a couple of reasons it took me fairly long to get it all up and running. Some aspects, like getting the mic input on my mac to work,
 were only solved after days. Besides my own impatience, there are other aspects that caused it all to take longer than necessary.
 
-A network capable Software Defined Radio operated from a laptop, is a very different beast than a traditional Yaesu or Kenwoord transceiver. Traditional transceivers only need to be connected to a power supply and an antenna to be ready to operate. SDR based transceivers like the SunSDR introduce a number of complications (challenges?) that need to be mastered.
+A network capable Software Defined Radio operated from a laptop, is a very different beast than a traditional Yaesu or Kenwoord transceiver. Traditional transceivers only need to be connected to a power supply and an antenna to be ready to operate. SDR based transceivers like the SunSDR introduce a number of complications and challenges that need to be mastered.
 
 ### Networking
 
@@ -34,7 +34,15 @@ Also, information on the SunSDR is scattered over several places. While solution
 
 ## Why is this easy?
 
-Once you've got your SunSDR and ExpertSDR up and running, you're bound to find out that CAT interfaces (Computer Aided Tuning) and CI-V adapters are no match for the TCI interface introduced by Expert Electronics. Physical cables, the CI-V Interface and the CAT protocol all became obsolete. Expert Electronics is setting a benchmark here and many suppliers already adapted their software to the TCI protocol. [SDC (Software Defined Connectors)](https://www.lw-sdc.com), [MacLoggerDX](https://www.dogparksoftware.com/MacLoggerDX.html) and many others run flawlessly with ExpertSDR3.
+Once you've got your SunSDR and ExpertSDR up and running, you're bound to find out that a growing number of relevant progams seamlessly integrate with expertSDR. Spots from the DX-cluster show up in the frequency spectrum of expertSDR. Skimmers tap into data provided by expertSDR and decode CW and a myriad of other digital modes.
+
+### Look ma, no cables
+
+CAT interfaces (Computer Aided Tuning) and CI-V adapters are no match for what expertSDR has to offer. Physical cables, the CI-V Interface and the CAT protocol all became obsolete.
+
+### Transceiver Control Interface
+
+Expert Electronics is setting a benchmark with their TCI protocol. Many suppliers already adapted their software to the TCI protocol. [SDC (Software Defined Connectors)](https://www.lw-sdc.com), [MacLoggerDX](https://www.dogparksoftware.com/MacLoggerDX.html) and many others run flawlessly with ExpertSDR3. Chasing DX, running digital modes and finding a running spot all of a sudden became a breeze.
 
 ## Let's help each other
 
