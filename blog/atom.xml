@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jwluiten.github.io/blog</id>
-    <title>SunSDR2 DX/ExpertSDR3 Blog</title>
+    <title>SunSDR2 DX/ExpertSDR3 Docs Blog</title>
     <updated>2022-12-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jwluiten.github.io/blog"/>
-    <subtitle>SunSDR2 DX/ExpertSDR3 Blog</subtitle>
+    <subtitle>SunSDR2 DX/ExpertSDR3 Docs Blog</subtitle>
     <icon>https://jwluiten.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Mic problem on macOS solved]]></title>
