@@ -18,19 +18,27 @@ This website is powered by [Docusaurus](https://docusaurus.io/docs). I warmly we
 In hindsight, I see a couple of reasons it took me fairly long to get it all up and running. Some aspects, like getting the mic input on my mac to work,
 were only solved after days. Besides my own impatience, there are other aspects that caused it all to take longer than necessary.
 
-A network capable Software Defined Radio operated from a laptop, is a very different beast than a traditional Yaesu or Kenwoord transceiver. Traditional transceivers only need to be connected to a power supply and an antenna to be ready to operate. SDR based transceivers like the SunSDR introduce a number of complications and challenges that need to be mastered.
+A network capable Software Defined Radio operated from a laptop, is a very different beast than a traditional Yaesu, ICOM or Kenwood transceiver. Traditional transceivers only need to be connected to a power supply and an antenna to be ready to operate. SDR based transceivers like the SunSDR introduce a number of complications and challenges that need to be mastered.
+
+### Split functionality
+
+With traditional transceivers, all functionality resides in a single box, the transceiver. Software Defined Radios are comprised of two separate parts; the SDR transceiver, a piece of advanced hardware and a software front-end that runs on a laptop. The SDR hardware and the software front-end exchange information over a network connection. In Software Defined Radios, most of the functionality of the transceiver moved to the front-end. Setting the frequency, applying filters, using LSB, USB or FM all are determined and implemented in the front-end.
+
+The SDR hardware digitizes and pre-processes the received signals. This digitized stream of information is transmitted over the network to the front-end software. The front-end is what you &mdash;as a user&mdash; perceive as your transceiver. Using this front-end you operate the SDR hardware. Through the front-end you instruct the SDR hardware to transmit, switch on the PA or switch antennas.
+
+Obviously, the network connection between the SDR hardware and the laptop running the front-end must be impeccable. It must provide an uninterrupted high-bandwidth exchange of data between hardware and software.
 
 ### Networking
 
-In order to work properly the SunSDR transceiver needs to be integrated in your home network. While most HAM operators are fairly proficient, this can present its challenges. The documentation on this site will guide you through this.
+In order to work properly the SunSDR transceiver needs to be integrated into your home network. While most HAM operators are fairly proficient in this area of competence, this can present its challenges. The documentation on this site will guide you through this.
 
 ### Operating System
 
-The SunSDR transceivers are &mdash;like most Software Defined Radios&mdash; operated through a piece of software (Frontend) that must be installed on your laptop. This not only brings all the capabilities but also all the complexities of the Operating System into play.
+The SunSDR transceivers are &mdash;like most Software Defined Radios&mdash; operated through a piece of software (front-end) that must be installed on your laptop. This not only brings all capabilities but also all complexities of the Operating System into play.
 
 ### No central source of information
 
-Also, information on the SunSDR is scattered over several places. While solutions for problems you might encounter are readily available, they are sometimes hard to find. To make matter worse, the latest version (ExpertSDR3 1.0.2 beta), while easy to operate, has no manual at the time of this writing.
+Information on the SunSDR is scattered over several places. While solutions for problems you might encounter are readily available, they are sometimes hard to find. To make matter worse, the latest version (ExpertSDR3 1.0.2 beta), while easy to operate and similar to ExpertSDR3, has no manual at the time of this writing.
 
 ## Why is this easy?
 
@@ -47,7 +55,7 @@ Expert Electronics is setting a benchmark with their TCI protocol. Many supplier
 
 ## Let's help each other
 
-The challenges I encountered in getting my SunSDR on the air, are the reason for this website. My goal is to help other Hams by creating a central location where I and others can write documentation and blog about our experiences with SunSDR, the expertSDR frontend and Ham Radio in general.
+The challenges I encountered in getting my SunSDR on the air, are the reason for this website. My goal is to help other Hams by creating a central location where I and others can write documentation and blog about our experiences with SunSDR, the expertSDR front-end and Ham Radio in general.
 
 ## Call to participate
 
