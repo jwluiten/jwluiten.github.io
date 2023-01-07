@@ -24,11 +24,11 @@ A network capable Software Defined Radio operated from a laptop, is a very diffe
 
 With traditional transceivers, all functionality resides in a single box, the transceiver. Software Defined Radios are comprised of two separate parts; the SDR transceiver, a piece of advanced hardware and a software front-end that runs on a laptop. The SDR hardware and the software front-end exchange information over a network connection. In Software Defined Radios, most of the functionality of the transceiver moved to the front-end. Setting the frequency, applying filters, using LSB, USB or FM all are determined and implemented in the front-end.
 
+### Networking
+
 The SDR hardware digitizes and pre-processes the received signals. This digitized stream of information is transmitted over the network to the front-end software. The front-end is what you &mdash;as a user&mdash; perceive as your transceiver. Using this front-end you operate the SDR hardware. Through the front-end you instruct the SDR hardware to transmit, switch on the PA or switch antennas.
 
 Obviously, the network connection between the SDR hardware and the laptop running the front-end must be impeccable. It must provide an uninterrupted high-bandwidth exchange of data between hardware and software.
-
-### Networking
 
 In order to work properly the SunSDR transceiver needs to be integrated into your home network. While most HAM operators are fairly proficient in this area of competence, this can present its challenges. The documentation on this site will guide you through this.
 
