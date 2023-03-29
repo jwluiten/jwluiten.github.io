@@ -10,7 +10,7 @@ A couple of days later my SunSDR2 DX arrived. Unfortunately, I had to wait to un
 ![SunSDR2DX by Expert Electronics](img/SunSDR2DX.jpg)
 
 :::info
-This website is powered by [Docusaurus](https://docusaurus.io/docs). I warmly welcome anyone who wants to contribute. You are encouraged to fork my [repo](https://github.com/jwluiten/jwluiten.github.io) and [contribute](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) to this website.
+This website is powered by [Docusaurus](https://docusaurus.io/docs). I warmly welcome anyone who wants to contribute. You are encouraged to fork my [repo](https://github.com/jwluiten/expert-sdr) and [contribute](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) to this website.
 :::
 
 ## Why is this difficult?
