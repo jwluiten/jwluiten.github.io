@@ -4,7 +4,7 @@ sidebar_position: 0
 
 # Welcome
 
-My name is Jan Willem Luiten, callsign PA3GNW. In December 2022, on Black Friday, I purchased a SunSDR2 DX at <a href="https://www.anico-hamshop.eu" target="_blank">Anico</a>.
+Hello and Welcome. My name is Jan Willem Luiten, callsign PA3GNW. In December 2022, on Black Friday, I purchased a SunSDR2 DX at <a href="https://www.anico-hamshop.eu" target="_blank">Anico</a>.
 A couple of days later my SunSDR2 DX arrived. Unfortunately, I had to wait to unpack because I was busy at work. During the Christmas holidays, I finally found the time to unbox it, integrate it into my home network, and get it on the air. To be honest, that took me longer than I expected.
 
 ![SunSDR2DX by Expert Electronics](img/SunSDR2DX.jpg)
